@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    display: block;
+    margin: 0px;
+    background-color: #f1e3cf;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: #275a27; 
+    z-index: -1; 
+  }
+
+
+  .frontCont {
+    position: relative;
+    z-index: 1;
+  }
+  
+.mainCont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.image-container {
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+
+.text-area {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-area p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(224, 159, 61);
+}
+
+.lineCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    color: rgb(236, 236, 236);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+
+.contTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.line {
+    justify-content: center;
+    width: 70%;
+    overflow: visible;
+    white-space: normal;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 7%;
+    margin-bottom: 4%;
+  }
+
+/* ---------------Home Images and Descs--------------- */
+
+  .foodContainer {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    max-width: 90%;
+    margin: 8vh auto;
+}
+
+.image {
+    flex: 0 0 auto;
+    margin-right: 30px;
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.6);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*------- Texts ------*/
+
+.content {
+    flex: 1;
+}
+
+.content h2 {
+    font-size: 1.65em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-family: tahoma;
+    font-size: 1.75em;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+#food1 {
+    padding: 50px;
+    background-color: #f1e3cf; 
+    clear: both; 
+}
+
+.foodContIn {
+    max-width: 1479px;
+    margin: 0 auto;
+}
+
+.foodContIn h1{
+    text-align: left;
+}
+
+
+.section-p1 h2,
+.section-p1 p {
+    margin-bottom: 20px;
+}
+
+.pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro {
+    width: 270px; 
+    height: 400px;
+    margin: 10px; 
+    overflow: hidden; 
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.pro img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+#food1 h2,
+#food1 p {
+    color: #8c1917;
+    text-align: left;
+}
+
+#food1 .pro-container {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+#food1 .pro {
+    width: 30%;
+    min-width: 250px;
+    padding: 9px 12px;
+    border: 4px solid #209c3f;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 36px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+
+#food1 .pro:hover {
+    box-shadow: 0px 0px 25px rgba(18, 114, 55, 0.39);
+}
+
+#food1 .pro img {
+    width: 100%;
+    border-radius: 5px;   
+}
+
+#food1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#food1 .pro .des span {
+    color: #606063;
+    font-size: 12px;
+}
+
+#food1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#food1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#food1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #642e83;
+}
+
+
+/* ---------------Schedule--------------- */
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    max-width: 1200px; 
+    overflow-x: auto; 
+    margin-bottom: 250px;
+}
+
+.schedule-table {
+    text-align: center;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 2px solid #0f3513;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #d0e7d5;
+}
+
+.schedule-table tr {
+    background-color: #aae7b7;
+}
+
+
+
+.schedule-table caption {
+    caption-side: top;
+    font-size: 3rem;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+
+/* ---------------Footer--------------- */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    width: 100%;
+  }
+
+/* ---------------Modal--------------- */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 37%;
+}
+
+.pricing {
+    font-weight: bold;
+}
+
+.modal-content h2 {
+    margin-bottom: 30px;
+}
+
+.modal-content p {
+    font-size: larger;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    align-items: right;
+    text-align: right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* ---------------History--------------- */
+
+#banner {
+    background-image: url(AboutBG.jpg);
+    width: 100%;
+    height: 39vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    z-index: -1;
+}
+
+#banner h2 {
+    color: #ce8a24;
+}
+
+#banner h1 {
+    color: #07ff28;
+}
+
+
+/* ---------------Map Text--------------- */
+.container p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
